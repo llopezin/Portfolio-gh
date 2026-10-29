@@ -1,0 +1,160 @@
+{
+  "en": {
+    "nav.about": "About me",
+    "nav.projects": "Projects",
+    "nav.experience": "Experience",
+    "nav.skills": "Skills",
+    "nav.certs": "Certifications",
+
+    "hero.im": "I'm ",
+    "hero.subtitle": "Full Stack Engineer",
+    "hero.github": "GitHub",
+    "hero.linkedin": "LinkedIn",
+    "hero.email": "Email",
+
+    "about.headline1": "I build fast, well-tested web apps — and the ",
+    "about.highlight": "AI workflows",
+    "about.headline2": " that help ship them.",
+    "about.lead": "Full Stack Engineer working across TypeScript, Node.js and React/Next.js — from SPAs to server-rendered apps, for both enterprises and startups.",
+    "about.pill.ai": "AI agents",
+    "about.point1.title": "What I do",
+    "about.point1.text": "Hands-on experience shipping enterprise and startup projects, with a focus on clean architecture and tested, maintainable applications.",
+    "about.point2.title": "What is next",
+    "about.point2.text": "Expanding into AI automation: architecting and orchestrating agent workflows to improve how software gets delivered.",
+    "about.point3.title": "Off the keyboard",
+    "about.point3.text": "When I'm not coding I enjoy going on adventures with my dogs, or climbing at the bouldering gym.",
+
+    "projects.tag": "// projects",
+    "projects.title": "Projects",
+
+    "projects.adele.title": "Adele, Kenmei's data visualization tool",
+    "projects.adele.desc": "Adele is an analysis tool used by telco engineers. Widgets and maps on four different dashboards can be individually customized, rearranged, resized. They display complex data visualizations using eCharts. The app handles large global states on filters and user configuration using Zustand and contexts.",
+
+    "projects.tradu.title": "Tradu, landing for a Trading company",
+    "projects.tradu.desc": "A beautifully designed site for which I worked as single Front End Developer at HYD agency. I proudly developed a design system and fully responsive and reusable component library that served as the base for this site on Next.js.",
+
+    "projects.dribo.title": "Dribo, the online driving school app",
+    "projects.dribo.desc": "A mobile app serving 200K+ students to get their driving licence entirely online. Rated #43 in Education on the App Store with a 4.3/5 rating. Built with Ionic, Cordova, React and Angular across a microfrontend architecture, with a Node.js and Fastify backend and Firestore database.",
+
+    "projects.board.title": "Board, a climbing pattern designer",
+    "projects.board.desc": "A personal tool to set and save climbing problems for my bouldering gym's wall. Built to explore Next.js Server Actions for auth and server-side validation, with Firebase, Zod and Zustand, and covered by real-browser integration tests running in CI.",
+
+    "projects.tere.title": "Physio Appointment Manager",
+    "projects.tere.desc": "A full-stack pnpm monorepo with separate client and professional apps for a physiotherapy clinic. Features appointment scheduling, Google Calendar integration and role-based auth, backed by a Hono API and PostgreSQL via Drizzle ORM.",
+
+    "projects.mood.title": "Mood Tracker",
+    "projects.mood.desc": "A personal project to track daily mood over time. A Next.js frontend paired with a GraphQL API connected to a SQL database — built to explore the viability of an Apollo + SQL setup for a work-related feature.",
+
+    "experience.tag": "// experience",
+    "experience.title": "Experience",
+
+    "experience.dribo.role": "Full Stack Engineer",
+    "experience.dribo.desc1": "Architecting and orchestrating AI agent workflows for a complex migration from a GraphQL backend to a REST backend-for-frontend, reducing manual overhead and bringing delivery down to weeks.",
+    "experience.dribo.desc2": "Building and maintaining features in a large-scale monorepo with a Node.js and Fastify API, Firestore database, and a mobile microfrontend architecture using React, Angular, Ionic and Cordova.",
+    "experience.dribo.desc3": "Automating observability and pull-request review tasks with AI-assisted workflows.",
+
+    "experience.kenmei.role": "Frontend Developer",
+    "experience.kenmei.desc1": "Developing features for an enterprise, data-dense React application; analysing high-level specifications, planning architecture, estimating work and creating squad tickets.",
+    "experience.kenmei.desc2": "Leading a centralized data-fetching architecture with services, custom hooks and Zustand, and migrating a large component library to TypeScript.",
+    "experience.kenmei.desc3": "Refactoring legacy code to reduce technical debt, strengthening the test suite and maintaining technical documentation.",
+
+    "experience.hyd.role": "Frontend Developer",
+    "experience.hyd.desc1": "Building web apps across static-site, SPA and SSR architectures with React, Next.js and Gatsby.",
+    "experience.hyd.desc2": "Creating custom component libraries and design systems around SOLID principles; building services for REST and GraphQL APIs with Apollo Client and RTK Query; and choosing state management to fit each application.",
+    "experience.hyd.desc3": "Ensuring WCAG accessibility, integrating third-party services, mentoring junior colleagues, and advising clients and project managers on technical feasibility and estimates.",
+
+    "experience.dentsu.role": "Frontend Developer",
+    "experience.dentsu.desc1": "Conducting Core Web Vitals performance audits with Google's Performance Profiler, SpeedCurve and WebPageTest, and building responsive, accessible features for A/B testing experiments.",
+
+    "skills.tag": "// skills",
+    "skills.title": "Skills",
+    "skills.frontend": "Frontend & State Management",
+    "skills.backend": "Backend & Databases",
+    "skills.testing": "Testing & Quality",
+    "skills.ai": "AI-Assisted Development",
+    "skills.devops": "DevOps & Performance",
+    "certs.tag": "// certifications",
+    "certs.title": "Certifications",
+
+    "footer.credit": "Designed and developed by Laura Infantes"
+  },
+  "es": {
+    "nav.about": "Sobre mí",
+    "nav.projects": "Proyectos",
+    "nav.experience": "Experiencia",
+    "nav.skills": "Habilidades",
+    "nav.certs": "Certificaciones",
+
+    "hero.im": "Soy ",
+    "hero.subtitle": "Ingeniera Full Stack",
+    "hero.github": "GitHub",
+    "hero.linkedin": "LinkedIn",
+    "hero.email": "Correo",
+
+    "about.headline1": "Construyo apps web rápidas y bien testeadas — y los ",
+    "about.highlight": "flujos de IA",
+    "about.headline2": " que ayudan a lanzarlas.",
+    "about.lead": "Ingeniera Full Stack trabajando con TypeScript, Node.js y React/Next.js — desde SPAs hasta apps con renderizado en servidor, tanto para empresas como para startups.",
+    "about.pill.ai": "Agentes IA",
+    "about.point1.title": "Lo que hago",
+    "about.point1.text": "Experiencia práctica entregando proyectos de empresa y startup, con foco en arquitectura limpia y aplicaciones testadas y mantenibles.",
+    "about.point2.title": "Lo que viene",
+    "about.point2.text": "Expandiéndome hacia la automatización con IA: diseñando y orquestando flujos de agentes para mejorar cómo se entrega el software.",
+    "about.point3.title": "Lejos del teclado",
+    "about.point3.text": "Cuando no estoy programando, disfruto de aventuras con mis perros o escalada en el rocódromo.",
+
+    "projects.tag": "// proyectos",
+    "projects.title": "Proyectos",
+
+    "projects.adele.title": "Adele, herramienta de visualización de datos de Kenmei",
+    "projects.adele.desc": "Adele es una herramienta de análisis utilizada por ingenieros de telecomunicaciones. Los widgets y mapas en cuatro dashboards pueden personalizarse, reorganizarse y redimensionarse individualmente. Muestran visualizaciones de datos complejas con eCharts. La app gestiona estados globales grandes con Zustand y contextos.",
+
+    "projects.tradu.title": "Tradu, landing para una empresa de trading",
+    "projects.tradu.desc": "Un sitio con un diseño impecable en el que trabajé como único desarrollador Frontend en la agencia HYD. Desarrollé un sistema de diseño y una librería de componentes completamente responsiva y reutilizable que sirvió de base para este sitio en Next.js.",
+
+    "projects.dribo.title": "Dribo, la app de autoescuela online",
+    "projects.dribo.desc": "Una app móvil con más de 200K estudiantes para obtener el carnet de conducir completamente online. Clasificada #43 en Educación en el App Store con una valoración de 4,3/5. Construida con Ionic, Cordova, React y Angular en una arquitectura de microfrontends, con backend en Node.js y Fastify y base de datos Firestore.",
+
+    "projects.board.title": "Board, diseñador de problemas de bloque",
+    "projects.board.desc": "Una herramienta personal para crear y guardar problemas de bloque en el panel de mi rocódromo. Construida para explorar las Server Actions de Next.js en autenticación y validación en servidor, con Firebase, Zod y Zustand, y cubierta con tests de integración en navegador real que se ejecutan en CI.",
+
+    "projects.tere.title": "Gestor de Citas para Fisioterapia",
+    "projects.tere.desc": "Un monorepo full-stack en pnpm con apps separadas para cliente y profesional para una clínica de fisioterapia. Incluye gestión de citas, integración con Google Calendar y auth por roles, con una API Hono y PostgreSQL via Drizzle ORM.",
+
+    "projects.mood.title": "Mood Tracker",
+    "projects.mood.desc": "Un proyecto personal para registrar el estado de ánimo diario. Un frontend en Next.js con una API GraphQL conectada a una base de datos SQL — construido para explorar la viabilidad de un setup Apollo + SQL para una funcionalidad de trabajo.",
+
+    "experience.tag": "// experiencia",
+    "experience.title": "Experiencia",
+
+    "experience.dribo.role": "Ingeniera Full Stack",
+    "experience.dribo.desc1": "Diseñando y orquestando flujos de agentes IA para una migración compleja de un backend GraphQL a un backend-for-frontend REST, reduciendo el trabajo manual y llevando la entrega a semanas.",
+    "experience.dribo.desc2": "Construyendo y manteniendo funcionalidades en un monorepo a gran escala con una API en Node.js y Fastify, base de datos Firestore, y una arquitectura de microfrontends móvil con React, Angular, Ionic y Cordova.",
+    "experience.dribo.desc3": "Automatizando tareas de observabilidad y revisión de pull requests con flujos asistidos por IA.",
+
+    "experience.kenmei.role": "Desarrolladora Frontend",
+    "experience.kenmei.desc1": "Desarrollando funcionalidades para una aplicación React empresarial con gran densidad de datos; analizando especificaciones de alto nivel, planificando arquitectura, estimando trabajo y creando tickets de squad.",
+    "experience.kenmei.desc2": "Liderando una arquitectura de data-fetching centralizada con servicios, custom hooks y Zustand, y migrando una gran librería de componentes a TypeScript.",
+    "experience.kenmei.desc3": "Refactorizando código legacy para reducir deuda técnica, reforzando la suite de tests y manteniendo documentación técnica.",
+
+    "experience.hyd.role": "Desarrolladora Frontend",
+    "experience.hyd.desc1": "Construyendo apps web en arquitecturas de sitio estático, SPA y SSR con React, Next.js y Gatsby.",
+    "experience.hyd.desc2": "Creando librerías de componentes personalizadas y sistemas de diseño siguiendo principios SOLID; construyendo servicios para APIs REST y GraphQL con Apollo Client y RTK Query; eligiendo gestión de estado adaptada a cada aplicación.",
+    "experience.hyd.desc3": "Garantizando accesibilidad WCAG, integrando servicios de terceros, mentorizando compañeros juniors y asesorando a clientes y project managers en viabilidad técnica y estimaciones.",
+
+    "experience.dentsu.role": "Desarrolladora Frontend",
+    "experience.dentsu.desc1": "Realizando auditorías de rendimiento de Core Web Vitals con el Performance Profiler de Google, SpeedCurve y WebPageTest, y construyendo funcionalidades responsivas y accesibles para experimentos de A/B testing.",
+
+    "skills.tag": "// habilidades",
+    "skills.title": "Habilidades",
+    "skills.frontend": "Frontend y Gestión de Estado",
+    "skills.backend": "Backend y Bases de Datos",
+    "skills.testing": "Testing y Calidad",
+    "skills.ai": "Desarrollo Asistido por IA",
+    "skills.devops": "DevOps y Rendimiento",
+    "certs.tag": "// certificaciones",
+    "certs.title": "Certificaciones",
+
+    "footer.credit": "Diseñado y desarrollado por Laura Infantes"
+  }
+}
