@@ -597,8 +597,23 @@
         }
 
         .about-headline mark {
+            --highlight: var(--accent-yellow);
             color: inherit;
-            background: linear-gradient(transparent 58%, var(--accent-yellow) 58%, var(--accent-yellow) 92%, transparent 92%);
+            background: linear-gradient(transparent 58%, var(--highlight) 58%, var(--highlight) 92%, transparent 92%);
+        }
+
+        /* On dark backgrounds purple contrasts better with the white text than pale yellow */
+        [data-theme="dark"] .about-headline mark {
+            --highlight: #9d7ee0;
+        }
+
+        /* Translucent pale yellow turns muddy over the dark background */
+        #about > .container > .shape-triangle {
+            opacity: 0.5;
+        }
+
+        [data-theme="dark"] #about > .container > .shape-triangle {
+            opacity: 1;
         }
 
         .about-lead {
@@ -1067,7 +1082,6 @@
             .hero-shapes .hero-s2,
             .hero-shapes .hero-s6,
             .hero-shapes .hero-s10,
-            .hero-shapes .hero-s14,
             .hero-shapes .hero-s15 {
                 display: none;
             }
@@ -1147,8 +1161,7 @@
 
             .hero-shapes .hero-s3,
             .hero-shapes .hero-s9,
-            .hero-shapes .hero-s12,
-            .hero-shapes .hero-s13 {
+            .hero-shapes .hero-s12 {
                 display: none;
             }
 
@@ -1171,10 +1184,6 @@
             .hero-link {
                 padding: 6px 12px;
                 font-size: 0.8rem;
-            }
-
-            .hero-shapes {
-                display: none;
             }
 
             .footer-links {
@@ -1319,7 +1328,7 @@
 
             <!-- Decorative shapes -->
             <div class="memphis-shape shape-triangle"
-                style="top:40px;left:-40px;opacity:0.5;animation:float2 14s infinite" aria-hidden="true"></div>
+                style="top:40px;left:-40px;animation:float2 14s infinite" aria-hidden="true"></div>
             <div class="memphis-shape shape-dots" style="bottom:20px;right:-30px;animation:float3 16s infinite"
                 aria-hidden="true"></div>
         </div>
